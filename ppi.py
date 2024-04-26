@@ -11,7 +11,6 @@ def get_interface_residues(pdb_id, chain_ids, threshold):
     pdb_id (str): The PDB ID of the structure.
     chain_ids (list): List containing two chain IDs.
     threshold (float): Maximum distance between residues to consider them as interacting.
-    file_format (str): Format of the file ('pdb' or 'mmcif').
 
     Returns:
     dict: Dictionary containing residue indices for each chain that are part of the interface.
